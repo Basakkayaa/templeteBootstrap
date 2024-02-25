@@ -1,0 +1,63 @@
+.color-w{
+    color: white;
+}
+.color{
+    color: rgb(44,62,80);
+}
+/* font */
+.text-56{
+    font-size: 56px;
+}
+.text-36{
+    font-size: 36px;
+}
+.text-26{
+    font-size: 26px;
+}
+.text-18{
+    font-size: 18px;
+}
+
+/*  */
+.font-800{
+    font-weight: 800;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-300{
+    font-weight: 300;
+}
+/* display */
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle>i{
+    padding-top: 2px;
+}
+.circleBox{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.circle:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
